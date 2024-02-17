@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css" disa>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="dns-prefetch" href="https://img.freepik.com">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="preconnect" href="https://img.freepik.com">
+    <script src="/js/rules.js"></script>
+</head>
+<body>
+    
+    <nav class="nav">
+
+        <div class="nav__container">
+
+            <h1 class="nav__title">DavidLG</h1>
+
+            <a href="#menu" class="nav__menu">
+                <img src="./assets/menu.svg" class="nav__icon">
+            </a>
+
+            <a href="#" class="nav__menu nav__menu--second" id="menu__close">
+                <img src="./assets/close.svg" class="nav__icon ">
+            </a>
+
+            <ul class="dropdown" id="menu">
+
+                <li class="dropdown__list">
+                    <a href="index.html" class="dropdown__link" id="menu__inicio">
+                        <img src="./assets/house.svg" class="dropdown__icon">
+                        <span class="dropdown__span">Inicio</span>
+                    </a>
+                </li>
+
+                <li class="dropdown__list">
+                    <a href="#" class="dropdown__link">
+                        <img src="./assets/projects.svg" class="dropdown__icon">
+                        <span class="dropdown__span">Projects</span>
+                        <img src="./assets/down.svg" class="dropdown__arrow">
+
+                        <input type="checkbox" class="dropdown__check">
+                    </a>
+
+                    <div class="dropdown__content">
+
+                        <ul class="dropdown__sub">
+
+                            <li class="dropdown__li">
+                                <a href="https://eloquent-parfait-3f96b2.netlify.app" class="dropdown__anchor">MarioSprites</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="https://sparkly-pegasus-e9881b.netlify.app" class="dropdown__anchor">CoffeTalk</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="https://boisterous-quokka-a4da50.netlify.app/" class="dropdown__anchor">SteamWeb</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </li>
+
+                <li class="dropdown__list">
+                    <a href="#" class="dropdown__link">
+                        <img src="./assets/email.svg" class="dropdown__icon">
+                        <span class="dropdown__span">Contacto</span>
+                        <img src="./assets/down.svg" class="dropdown__arrow">
+
+                        <input type="checkbox" class="dropdown__check">
+                    </a>
+
+                    <div class="dropdown__content">
+
+                        <ul class="dropdown__sub">
+
+                            <li class="dropdown__li">
+                                <a href="https://about.gitlab.com/" class="dropdown__anchor"> <img src="./img/gitlab.avif" alt="gitlab" id="gitlab" loading="lazy"> <p>GitLab</p></a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="https://github.com/" class="dropdown__anchor"><img src="./img/github.avif" alt="github" id="github" loading="lazy"> <p>GitHub</p></a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="https://www.google.com/intl/es/gmail/about/" class="dropdown__anchor"><img src="./img/gmail.avif" alt="gmail" id="gmail" loading="lazy"> <p>Gmail</p></a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </li>
+
+                <li class="dropdown__list">
+                    <a href="#" class="dropdown__link" id="ayuda">
+                        <img src="./assets/help.svg" class="dropdown__icon">
+                        <span class="dropdown__span">Ayuda</span>
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </nav>
+
+  <div class="container__projects">
+
+    <div class="contenedor">
+        <a href="https://eloquent-parfait-3f96b2.netlify.app">
+             <figure>
+                 <img src="https://i.pinimg.com/736x/16/a0/fd/16a0fd560056a6d6e0becc4db9fa7964.jpg"loading="lazy">
+                 <div class="capa">
+                     <h3>Mario Sprites</h3>
+                     <p>Esta práctica consiste en hacer sprites de mario, con animaciones basadas sobretodo
+                        en CSS y sin usar Javascript
+                     </p>
+                 </div>
+             </figure>
+         </a>
+     </div>
+
+     <div class="contenedor">
+        <a href="https://sparkly-pegasus-e9881b.netlify.app">
+             <figure>
+                 <img src="https://sm.ign.com/ign_ap/screenshot/default/prtscr-capture_e5hz.png" loading="lazy">
+                 <div class="capa">
+                     <h3>Coffe-Talk</h3>
+                     <p>Esta práctica consistió en hacer la web de un restaurante en grupos, la nuestra
+                        se basó en un restaurante ficticio que vendía bebidas calientes
+                     </p>
+                 </div>
+             </figure>
+         </a>
+     </div>
+
+     <div class="contenedor">
+        <a href="https://boisterous-quokka-a4da50.netlify.app/">
+             <figure>
+                 <img src="https://cdn.akamai.steamstatic.com/store/home/store_home_share.jpg" loading="lazy">
+                 <div class="capa">
+                     <h3>SteamWeb</h3>
+                     <p>
+                        Esta es una de mis prácticas del primer curso de FP, que consistió en replicar 
+                        de la manera más precisa un diseño de una web que nos dieron ya hecho
+                     </p>
+                 </div>
+             </figure>
+         </a>
+     </div>
+
+  </div>
+   
+
+
+    <footer class="footer" id="footer__projects">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Front end</h4>
+                </div>
+                <div class="footer-col">
+                    <h4>Back end</h4>
+
+                </div>
+                <div class="footer-col">
+                    <h4>Programación</h4>
+                </div>
+                <div class="footer-col">
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/?locale=es_ES"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/?lang=es"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://es.linkedin.com/?src=go-pa&trk=sem-ga_campid.18146679037_asid.140850334975_crid.619061882347_kw.linkedin_d.c_tid.kwd-148086543_n.g_mt.e_geo.20287&mcid=6968657504633266178&cid=&gad_source=1&gclid=Cj0KCQiAz8GuBhCxARIsAOpzk8wmCbaph6mmdTc9wedTJjcU3vKyLh5j9VElKGjDIyrLwHcnR_wvxlMaAhyuEALw_wcB&gclsrc=aw.ds"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
+</body>
+</html>
